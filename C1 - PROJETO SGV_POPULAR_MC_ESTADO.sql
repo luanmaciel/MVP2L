@@ -55,6 +55,8 @@ VALUES ('TO', 'Tocantins');
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
 VALUES ('DF', 'Distrito Federal');
 
+SELECT * FROM MC_ESTADO;
+
 
 
 
