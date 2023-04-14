@@ -41,7 +41,7 @@ VALUES (SQ_MC_CIDADE.NEXTVAL, 'SC', 'BALNEARIO CAMBORIU', 4202008, 48);
 --Deletando todos os dados da tabela MC_CIDADE 
 DELETE FROM MC_CIDADE;
 
-Consultando todos os dados da tabela MC_CIDADE
+--Consultando todos os dados da tabela MC_CIDADE
 SELECT * FROM MC_CIDADE;
 
 /*UPDATE MC_CIDADE

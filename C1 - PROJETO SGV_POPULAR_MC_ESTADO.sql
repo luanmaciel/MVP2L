@@ -55,6 +55,10 @@ VALUES ('TO', 'Tocantins');
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
 VALUES ('DF', 'Distrito Federal');
 
+--Deletando todos os dados da tabela MC_ESTADOS 
+DELETE FROM MC_ESTADOS;
+
+--Consultando todos os dados da tabela MC_ESTADO
 SELECT * FROM MC_ESTADO;
 
 
