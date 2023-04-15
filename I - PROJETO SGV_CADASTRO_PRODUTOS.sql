@@ -23,7 +23,7 @@ VALUES (SQ_MC_PRODUTO.NEXTVAL,1,'Pincel chato numero 2 ref. 115-2 condor',4.37,'
 PINCEL CHATO NUMERO 2 REF. 115-2 CONDOR');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
-VALUES (SQ_MC_PRODUTO.NEXTVAL,2,'Caixa De Som Bluetooth 5.0 Monitor Edifier R1080bt 24w Home Áudio Multimídia Speaker',791.97,'Caixa De Som Bluetooth 5.0 Monitor Edifier R1080bt 24w Home Áudio Multimídia Speaker
+VALUES (SQ_MC_PRODUTO.NEXTVAL,2,'Caixa De Som Bluetooth 5.0 Monitor Edifier R1080bt 24w Home Áudio Multimídia',791.97,'Caixa De Som Bluetooth 5.0 Monitor Edifier R1080bt 24w Home Áudio Multimídia Speaker
 MONITOR DE ÁUDIO 24W RMS - Bivolt
 MARCA: EDIFIER
 MODELO: R1080BT
@@ -77,11 +77,6 @@ VALUES (SQ_MC_PRODUTO.NEXTVAL,3,'Cactos Dançante Falante, Toca Dança Fala e Pi
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
 VALUES (SQ_MC_PRODUTO.NEXTVAL,3,'Brinquedo Lança Bolha de Sabão Diversão Tubarão - Art Brink',22.37,'Brinquedo Lança Bolha de Sabão Diversão Tubarão
-Olá! Tudo Bem?
-É um prazer ter você aqui com a gente!
-Nossa meta é trazer produtos de qualidade com preço justo!
-Nosso objetivo é te proporcionar a melhor experiência!
-Fique a vontade para perguntar caso tenha dúvidas!
 Trazemos aqui a diversão clássica mas com nova cara, fazer bolhas de sabão agora é muito mais divertido!
 Com o Lança Bolhas de Sabão Basta apertar o gatilho que a diversão está garantida!
 Contém 01 lançadpr de bolhas; 01 ponteira do lançador e 01 refil de 55mL com Líquido
@@ -96,7 +91,7 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_CO
 VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Apple iPhone 14 Plus 128GB Estelar 6,7” 12MP',6209.1,'Com o iPhone 14 Plus, você pensa grande na supertelona de 6,7 polegadas* e tem bateria para o dia todo**. Usa o novo sistema de câmera dupla para fazer fotos espetaculares em ambientes com pouca ou muita luz. E ganha tranquilidade com a Detecção de Acidente***, um novo recurso de segurança que liga para a emergência se você não puder. Avisos legais *A tela tem bordas arredondadas. Quando medida como um retângulo, a tela tem 6,68 polegadas na diagonal. A área real de visualização é menor. **A duração da bateria varia de acordo com o uso e a configuração. Consulte apple.com/br/batteries para obter mais informações. ***O SOS de Emergência usa uma conexão de rede celular ou chamadas Wi-Fi. ****É preciso ter um plano de dados. 5G só está disponível em alguns países e por meio de determinadas operadoras. As velocidades variam de acordo com as condições e operadoras locais. Para obter detalhes sobre a compatibilidade com 5G, entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. *****O iPhone 14 Plus é resistente a respingos, água e poeira e foi testado em condições controladas em laboratório, classificado como IP68 segundo a norma IEC 60529 (profundidade máxima de seis metros por até 30 minutos). A resistência a respingos, água e poeira não é uma condição permanente e pode diminuir com o tempo. Não tente recarregar um iPhone molhado. Veja instruções de limpeza e secagem no Manual do Usuário. Danos decorrentes de contato com líquidos não estão incluídos na garantia. ******Alguns recursos podem não estar disponíveis em todos os países ou regiões.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
-VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6,1” Câm Tripla + Selfie 12MP',5849,'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6,1” Câm Tripla + Selfie 12MP
+VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6,1” Câm Tripla',5849,'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6,1” Câm Tripla + Selfie 12MP
 Para você que está a procura de um novo smartphone e dar aquele upgrade no seu dia a dia no trabalho ou para navegar nas redes sociais, precisa conhecer o Samsung Galaxy S23 na cor violeta. É o smartphone top de linha pra quem quer um aparelho completo pra jogos, estudos e trabalho. Ele possui 256GB de armazenamento interno para guardar diversos aplicativos, fotos, vídeos e jogos, 8GB de memória RAM e processador Qualcomm Snapdragon 8 Gen 2 que evita aquelas travadas durante o uso. A tela dele é Dynamic AMOLED 2X de 6,1"" com resolução FHD+ (1080x2340), a câmera traseira é tripla de 50MP +12MP + 10MP com Zoom Digital até 30x e Óptico 3x , perfeita para tirar muitas fotos e a frontal de 12MP faz selfies que ficam ótimas para postar nas redes sociais. E ainda, é Dual Chip com tecnologia 5G, oferece leitor de impressão digital, reconhecimento Facial e proteção IP68 que torna o aparelho resistente à água, mesmo se ele for submerso por 30 minutos a 1,5 metro de profundidade. Atenção: Produto não acompanha fone de ouvido.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
@@ -208,10 +203,10 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_CO
 VALUES (SQ_MC_PRODUTO.NEXTVAL,12,'Smart Tv 43"" Uhd 4K Samsung Crystal Led - Bivolt',2449.9,'Características -  Smart TV. Sistema operacional: Tizen. . Processador: Crystal 4K.. Assistente de Voz : Bixby, Alexa e Google Assistant. Aplicativos Pré-instalados: Sim. Tamanho da tela: 43 polegadas. Resolução: 3,840 x 2,160. Frequência: 60 Hz. Áudio: Potência (RMS): 20 W. Conectividade: Entrada HDMI : Sim (3). Entrada USB: Sim (2). Entrada Ethernet: Sim. Conexões sem fio: Wifi 5 e Bluetooth BT 5.2. Outras conexões: HDMI A / Return Ch. Support, Entrada de RF (terrestre/entrada de cabo), eArc e Anynet+ (HDMI-CEC). Especificações Técnicas Marca: Samsung. Modelo: Smart Tv 43” UHD 4k. Dimensões com Suporte (LxAxP): 96,5cm x 59,9cm x 20,5cm. Dimensões sem Suporte: (LxAxP): 96,5cm x 55,9cm x 2,5cm. Tipo de Furação: VESA. Peso aproximado do produto com suporte: 8,4Kg. Peso aproximado do produto sem suporte: 8,1Kg. Conteúdo da Embalagem: 01 Smart TV; 01 Controle; Garantia Fornecedor: 1 Ano.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
-VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Fervedor Tramontina em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Vermelho 12 cm 1 L',69.9,'Corpo de alumínio com espessura de 1,4 mm que proporciona cozimento rápido e uniforme. Revestimento interno e externo de antiaderente Starflon Max que não gruda, é fácil de limpar, mais durável e não é prejudicial à saúde, pois é livre de PFOA. Cabo de baquelite antitérmico que oferece segurança. Altura: 10.30 cm. Largura: 13.30 cm. Diâmetro: 12,00. Peso: 240g. Capacidade: 1 litro.');
+VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Fervedor Tramontina em Alumínio com Revestimento Interno e Externo',69.9,'Corpo de alumínio com espessura de 1,4 mm que proporciona cozimento rápido e uniforme. Revestimento interno e externo de antiaderente Starflon Max que não gruda, é fácil de limpar, mais durável e não é prejudicial à saúde, pois é livre de PFOA. Cabo de baquelite antitérmico que oferece segurança. Altura: 10.30 cm. Largura: 13.30 cm. Diâmetro: 12,00. Peso: 240g. Capacidade: 1 litro.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
-VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Panela de Pressão Tramontina Vancouver em Alumínio com Revestimento Interno e Externo Antiaderente Starflon Max Azul 20 cm 4,5 L',219,'Corpo de alumínio com espessura de 3,2 mm que proporciona cozimento rápido e uniforme. Com revestimento interno e externo de antiaderente Starflon Max que não gruda, é fácil de limpar, mais durável e não é prejudicial à saúde. Tampa de alumínio.  Altura: 22.90 cm. Largura: 23.10 cm. Diâmetro: 20,00 cm. Peso: 1.725 kg. Capacidade: 4.5 litros.');
+VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Panela de Pressão Tramontina Vancouver em Alumínio com Revestimento Interno',219,'Corpo de alumínio com espessura de 3,2 mm que proporciona cozimento rápido e uniforme. Com revestimento interno e externo de antiaderente Starflon Max que não gruda, é fácil de limpar, mais durável e não é prejudicial à saúde. Tampa de alumínio.  Altura: 22.90 cm. Largura: 23.10 cm. Diâmetro: 20,00 cm. Peso: 1.725 kg. Capacidade: 4.5 litros.');
 
 COMMIT
 
