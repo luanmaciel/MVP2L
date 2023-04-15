@@ -223,6 +223,7 @@ VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Panela de Pressao Tramontina Vancouver em Alum
 
 COMMIT
 
+--atualizado
 --DELETE FROM MC_PRODUTO;
 
 -- Consultando todos os dados da tabela MC_PRODUTO
