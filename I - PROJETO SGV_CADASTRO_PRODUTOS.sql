@@ -223,6 +223,12 @@ VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Panela de Pressao Tramontina Vancouver em Alum
 
 COMMIT
 
+-- Inserindo produto com status Inativo conforme regra n (13)
+INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, ST_PRODUTO ,DS_COMPLETA_PROD)
+VALUES (SQ_MC_PRODUTO.NEXTVAL,13,'Amassador Batatas Legumes Espremedor Aço Inox Cabo Plástico Cozinha Utilidade Doméstica',21.95,I,'massador Batatas Legumes Espremedor Aço Inox Cabo Plástico Cozinha Utilidade Doméstica
+Amassador de Batatas em Aço Inox e Plástico O Amassador de batatas é o utensílio que falta em sua cozinha para facilitar sua vida no dia a dia. Este eficiente item vai ser de grande uso, facilitand na hora de preparar as refeições, feito de de aço inox material forte e duradouro foi feito para quem busca mais praticidade.Produto moderno multifuncional este amassador é super fácil de usar, é simples e eficiente, basta posiciona-lo sobre o que deseja amassar e pressionar para ter os seus alimentos prontos!Ideal para Batata, Legumes, Mandioca, Feijão.Dimensões : 24.3 x 8 cmImagens meramente ilustrativas.');
+
+
 --atualizado
 --DELETE FROM MC_PRODUTO;
 
