@@ -1,23 +1,21 @@
 
--- Inserindo Produtos conforme regra I
---ALTER SEQUENCE SQ_MC_PRODUTO RESTART START WITH 1
 
 -- Inserindo produtos da categoria Artesanato(1)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL , 1 , 'Tinta para Tecido Branco 37ml Acrilex' , 4.49 , 'Tinta para Tecido Branco 37ml Acrilex
     Tinta para Tecido Fosca Acrilex
     Embalagem: 37ml
-    Cor: Cod. 519 – Branco
-    · Para ser utilizada em tecidos de algodao.
-    · Nao utilizar em tecidos sinteticos ou engomados
-    · Super resistencia a lavagens
-    · Excelente cobertura com fixacao a frio
-    · Pronta para uso ,  cores misciveis entre si
-    Para diluicao ,  utilize o Diluente para Tinta Tecidos ,  indicado para diluir ,  retardar a secagem ,  fazer tecnicas de matizados e sombreados ,  mantendo a resistencia a lavagens.
+    Cor: Cod. 519 Branco
+    - Para ser utilizada em tecidos de algodao.
+    - Nao utilizar em tecidos sinteticos ou engomados
+    - Super resistencia a lavagens
+    - Excelente cobertura com fixacao a frio
+    - Pronta para uso, cores misciveis entre si
+    Para diluicao, utilize o Diluente para Tinta Tecidos,  indicado para diluir,  retardar a secagem,  fazer tecnicas de matizados e sombreados,  mantendo a resistencia a lavagens.
     Modo de Usar:
-    Pode ser aplicada com pincel ,  esponja ou carimbo ,  em tecidos de algodao sem goma (nao sinteticos).
-    Lavar o tecido antes da pintura ,  para retirar os residuos de goma.
-    Apos a pintura ,  aguarde 72 horas para lavagem.');
+    Pode ser aplicada com pincel,  esponja ou carimbo,  em tecidos de algodao sem goma (nao sinteticos).
+    Lavar o tecido antes da pintura,  para retirar os residuos de goma.
+    Apos a pintura, aguarde 72 horas para lavagem.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL , 1 , 'Pincel chato numero 2 ref. 115-2 condor' , 4.37 , 'Pincel chato numero 2 ref. 115-2 condor
@@ -55,12 +53,12 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
     - Entrada de audio: AUX ,  LINE IN ,  Bluetooth
     - Forma de ajuste: botao de ajuste
     - Distorcao harmônica total da pressao do som: = 7%
-    - Resposta de freqüencia: 67Hz-20kHz
+    - Resposta de frequencia: 67Hz-20kHz
     - Sensibilidade de entrada:
-    - 700 ± 50mV (PC);
-    - 550 ± 50mV (AUX);
-    - 550 ± 50mFFs (Bluetooth)
-    - Relacao sinal / ruido dB (A): ¿ 85dB (A)
+    - 700 � 50mV (PC);
+    - 550 � 50mV (AUX);
+    - 550 � 50mFFs (Bluetooth)
+    - Relacao sinal / ruido dB (A): 85dB (A)
     - Nivel de ruido: =25dB (A)
     - Compatibilidade: Bluetooth ,  P2
     - Alimentacao: Bivolt
@@ -72,7 +70,7 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL , 2 , 'Mini Amplificador Som Audio Bluetooth Usb Mp3 Fm Karaoke - Lelong' , 241.45 , 'Mini Amplificador Som Audio Bluetooth Usb Mp3 Fm Karaoke
-    Amplificador feito para quem gosta de um som com extrema qualidade ,  e ainda voce pode conseguir atingir um nivel sonoro limpo e muito pratico ,  voce conta com todas as outras funcionalidades que acompanha o produtoAmplificador lelong 704 serve para karaoke BluetoothMp3Bivolt2 saidas de 60 rms cada  ,  total 120 rmsFonte de alimentacao 12 voltsSnr -80dbnCom controle');
+    Amplificador feito para quem gosta de um som com extrema qualidade ,  e ainda voce pode conseguir atingir um nivel sonoro limpo e muito pratico ,  voce conta com todas as outras funcionalidades que acompanha o produto Amplificador lelong 704 serve para karaoke Bluetooth Mp3 Bivolt 2 saidas de 60 rms cada  ,  total 120 rmsFonte de alimentacao 12 voltsSnr -80dbn Com controle');
 
 -- Inserindo produtos da categoria Brinquedos(3)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
@@ -91,21 +89,20 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
     BENEFiCIOS: Auxilia na interacao da crianca ,  promove distracao ,  diversao e nao gasta energia!');
 
 -- Inserindo produtos da categoria Celulares e Smartfones(4)
-<<<<<<< HEAD
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
 VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Apple iPhone 14 Plus 128GB Estelar 6,7�? 12MP',6209.1,'Com o iPhone 14 Plus, voce pensa grande na supertelona de 6,7 polegadas* e tem bateria para o dia todo**. Usa o novo sistema de camera dupla para fazer fotos espetaculares em ambientes com pouca ou muita luz. E ganha tranquilidade com a Deteccao de Acidente***, um novo recurso de seguranca que liga para a emergencia se voce nao puder. Avisos legais *A tela tem bordas arredondadas. Quando medida como um retangulo, a tela tem 6,68 polegadas na diagonal. A area real de visualizacao e menor. **A duracao da bateria varia de acordo com o uso e a configuracao. Consulte apple.com/br/batteries para obter mais informacoes. ***O SOS de Emergencia usa uma conexao de rede celular ou chamadas Wi-Fi. ****e preciso ter um plano de dados. 5G so esta disponivel em alguns paises e por meio de determinadas operadoras. As velocidades variam de acordo com as condicoes e operadoras locais. Para obter detalhes sobre a compatibilidade com 5G, entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. *****O iPhone 14 Plus e resistente a respingos, agua e poeira e foi testado em condicoes controladas em laboratorio, classificado como IP68 segundo a norma IEC 60529 (profundidade maxima de seis metros por ate 30 minutos). A resistencia a respingos, agua e poeira nao e uma condicao permanente e pode diminuir com o tempo. Nao tente recarregar um iPhone molhado. Veja instrucoes de limpeza e secagem no Manual do Usuario. Danos decorrentes de contato com liquidos nao estao incluidos na garantia. ******Alguns recursos podem nao estar disponiveis em todos os paises ou regioes.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
-VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6,1�? Cam Tripla',5849,'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6,1�? Cam Tripla + Selfie 12MP
+VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6,1" Cam Tripla',5849,'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6,1" Cam Tripla + Selfie 12MP
 Para voce que esta a procura de um novo smartphone e dar aquele upgrade no seu dia a dia no trabalho ou para navegar nas redes sociais, precisa conhecer o Samsung Galaxy S23 na cor violeta. e o smartphone top de linha pra quem quer um aparelho completo pra jogos, estudos e trabalho. Ele possui 256GB de armazenamento interno para guardar diversos aplicativos, fotos, videos e jogos, 8GB de memoria RAM e processador Qualcomm Snapdragon 8 Gen 2 que evita aquelas travadas durante o uso. A tela dele e Dynamic AMOLED 2X de 6,1"" com resolucao FHD+ (1080x2340), a camera traseira e tripla de 50MP +12MP + 10MP com Zoom Digital ate 30x e optico 3x , perfeita para tirar muitas fotos e a frontal de 12MP faz selfies que ficam otimas para postar nas redes sociais. E ainda, e Dual Chip com tecnologia 5G, oferece leitor de impressao digital, reconhecimento Facial e protecao IP68 que torna o aparelho resistente a agua, mesmo se ele for submerso por 30 minutos a 1,5 metro de profundidade. Atencao: Produto nao acompanha fone de ouvido.');
-=======
-INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 4 , 'Apple iPhone 14 Plus 128GB Estelar 6 , 7�? 12MP' , 6209.1 , 'Com o iPhone 14 Plus ,  voce pensa grande na supertelona de 6 , 7 polegadas* e tem bateria para o dia todo**. Usa o novo sistema de camera dupla para fazer fotos espetaculares em ambientes com pouca ou muita luz. E ganha tranquilidade com a Deteccao de Acidente*** ,  um novo recurso de seguranca que liga para a emergencia se voce nao puder. Avisos legais *A tela tem bordas arredondadas. Quando medida como um retangulo ,  a tela tem 6 , 68 polegadas na diagonal. A area real de visualizacao e menor. **A duracao da bateria varia de acordo com o uso e a configuracao. Consulte apple.com/br/batteries para obter mais informacoes. ***O SOS de Emergencia usa uma conexao de rede celular ou chamadas Wi-Fi. ****e preciso ter um plano de dados. 5G so esta disponivel em alguns paises e por meio de determinadas operadoras. As velocidades variam de acordo com as condicoes e operadoras locais. Para obter detalhes sobre a compatibilidade com 5G ,  entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. *****O iPhone 14 Plus e resistente a respingos ,  agua e poeira e foi testado em condicoes controladas em laboratorio ,  classificado como IP68 segundo a norma IEC 60529 (profundidade maxima de seis metros por ate 30 minutos). A resistencia a respingos ,  agua e poeira nao e uma condicao permanente e pode diminuir com o tempo. Nao tente recarregar um iPhone molhado. Veja instrucoes de limpeza e secagem no Manual do Usuario. Danos decorrentes de contato com liquidos nao estao incluidos na garantia. ******Alguns recursos podem nao estar disponiveis em todos os paises ou regioes.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 4 , 'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6 , 1�? Cam Tripla' , 5849 , 'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6 , 1�? Cam Tripla + Selfie 12MP
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 4 , 'Apple iPhone 14 Plus 128GB Estelar 6,7" 12MP' , 6209.1 , 'Com o iPhone 14 Plus ,  voce pensa grande na supertelona de 6,7 polegadas* e tem bateria para o dia todo**. Usa o novo sistema de camera dupla para fazer fotos espetaculares em ambientes com pouca ou muita luz. E ganha tranquilidade com a Deteccao de Acidente*** ,  um novo recurso de seguranca que liga para a emergencia se voce nao puder. Avisos legais *A tela tem bordas arredondadas. Quando medida como um retangulo ,  a tela tem 6 , 68 polegadas na diagonal. A area real de visualizacao e menor. **A duracao da bateria varia de acordo com o uso e a configuracao. Consulte apple.com/br/batteries para obter mais informacoes. ***O SOS de Emergencia usa uma conexao de rede celular ou chamadas Wi-Fi. ****e preciso ter um plano de dados. 5G so esta disponivel em alguns paises e por meio de determinadas operadoras. As velocidades variam de acordo com as condicoes e operadoras locais. Para obter detalhes sobre a compatibilidade com 5G ,  entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. *****O iPhone 14 Plus e resistente a respingos ,  agua e poeira e foi testado em condicoes controladas em laboratorio ,  classificado como IP68 segundo a norma IEC 60529 (profundidade maxima de seis metros por ate 30 minutos). A resistencia a respingos ,  agua e poeira nao e uma condicao permanente e pode diminuir com o tempo. Nao tente recarregar um iPhone molhado. Veja instrucoes de limpeza e secagem no Manual do Usuario. Danos decorrentes de contato com liquidos nao estao incluidos na garantia. ******Alguns recursos podem nao estar disponiveis em todos os paises ou regioes.');
+
+INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 4 , 'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6,1" Cam Tripla' , 5849 , 'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6 , 1�? Cam Tripla + Selfie 12MP
     Para voce que esta a procura de um novo smartphone e dar aquele upgrade no seu dia a dia no trabalho ou para navegar nas redes sociais ,  precisa conhecer o Samsung Galaxy S23 na cor violeta. e o smartphone top de linha pra quem quer um aparelho completo pra jogos ,  estudos e trabalho. Ele possui 256GB de armazenamento interno para guardar diversos aplicativos ,  fotos ,  videos e jogos ,  8GB de memoria RAM e processador Qualcomm Snapdragon 8 Gen 2 que evita aquelas travadas durante o uso. A tela dele e Dynamic AMOLED 2X de 6 , 1"" com resolucao FHD+ (1080x2340) ,  a camera traseira e tripla de 50MP +12MP + 10MP com Zoom Digital ate 30x e optico 3x  ,  perfeita para tirar muitas fotos e a frontal de 12MP faz selfies que ficam otimas para postar nas redes sociais. E ainda ,  e Dual Chip com tecnologia 5G ,  oferece leitor de impressao digital ,  reconhecimento Facial e protecao IP68 que torna o aparelho resistente a agua ,  mesmo se ele for submerso por 30 minutos a 1 , 5 metro de profundidade. Atencao: Produto nao acompanha fone de ouvido.');
->>>>>>> 5f9d5a0b25f995cf1c0ddbd5845405c05bbe0dcf
+
 
 -- Inserindo produtos da categoria Colchoes(5)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
@@ -172,7 +169,7 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
     Inspirada no DNA da Everlast ,  a linha Fight foi criada pensando no profissional de luta. Com produtos altamente tecnologicos ,  os modelos atendem os requisitos exigidos pelos esportes de combate ,  sao mais leves ,  flexiveis e estruturados.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 6 , 'Bola de FutVôlei IDEA Original Esporte Lazer Tamanho Oficial' , 71.9 , 'Bola de FutVôlei IDEA Original Esporte Lazer Tamanho Oficial
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 6 , 'Bola de FutVolei IDEA Original Esporte Lazer Tamanho Oficial' , 71.9 , 'Bola de FutVolei IDEA Original Esporte Lazer Tamanho Oficial
     Tamanho Oficial
     Sintetico
     Costura a maquina
@@ -209,41 +206,41 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL , 10 , 'A Garota do Lago - Charlie Donlea' , 8.79 , 'Marca: Faro Editorial. Editora: Faro Editorial. Referencia: 9788562409882. Titulo: A garota do lago. Autor: Charlie Donlea. Formato: Impresso. Tipo: Livro brochura (paperback). Edicao: 1. Edicao. Classificacao: Ficcao ,  Ficcao Cientifica ,  Geral. Ano de publicacao: 2017. Idioma: Portugues. Numero de paginas: 296. ISBN: 978-85-62409-88-2. Peso do Produto: 525g. Dimensoes do Produto: Largura: 15cm ,  Altura: 23cm ,  Profundidade: 2 , 6cm. Prazo de Garantia: 3 Meses de garantia legal. Conteudo da Embalagem: 1 Livro.');
 
-INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 11 , 'Gaiola para Porquinho-da-india Mônaco unico' , 379.9 , 'Marca: Mônaco.  Material de qualidade ,  com acabamento em Epoxi e pintura na cor branca ,  trazendo durabilidade. Medidas aproximadas: Altura: 48cm. Largura: 41cm. Comprimento: 61cm');
-
 -- Inserindo produtos da categoria Pet Shop(11)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 11 , 'Gaiola com Escada Hamster Mônaco Verde unico' , 264.9 , 'Marca: Mônaco.  Caracteristicas: 2 andares. Com rodinha para exercicios. Ideal para diversao e movimentacao. Medidas aproximadas: Altura: 40 cm x Largura: 26 cm x Comprimento: 40 cm');
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 11 , 'Gaiola para Porquinho-da-india Monaco unico' , 379.9 , 'Marca: Monaco.  Material de qualidade ,  com acabamento em Epoxi e pintura na cor branca ,  trazendo durabilidade. Medidas aproximadas: Altura: 48cm. Largura: 41cm. Comprimento: 61cm');
 
+INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 11 , 'Gaiola com Escada Hamster Monaco Verde unico' , 264.9 , 'Marca: Monaco.  Caracteristicas: 2 andares. Com rodinha para exercicios. Ideal para diversao e movimentacao. Medidas aproximadas: Altura: 40 cm x Largura: 26 cm x Comprimento: 40 cm');
+
+-- Inserindo produtos da categoria TV(12)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL , 12 , 'Smart TV 50"" Android 4K UHD LED - Philips' , 3449 , 'Referencia do modelo: 50pug-7406/78. Caracteristicas - resolucao da imagem: 3840x2160. Proporcao da imagem: 16:9. Tamanho da memoria (flash): 8 gb. Conteudo da embalagem: 01 smart tv ,  01 controle remoto ,  01 cabo de energia ,  01 suporte para cima da mesa ,  02 pilhas aaa ,  01 manual do produto ,  voltagem: 220v ,  fornecedor: philips. Dimensoes aproximadas do produto: altura: 64 , 73 cm (sem base)/ 67 , 8 cm (com base) ,  largura: 111 , 3 cm ,  comprimento: 8 , 72 cm (sem base)/ 24 , 8 cm (com base). Garantia do fornecedor: 1 ano contra defeitos de fabricacao');
 
--- Inserindo produtos da categoria TV(12)
-<<<<<<< HEAD
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
-VALUES (SQ_MC_PRODUTO.NEXTVAL,12,'Smart Tv 43"" Uhd 4K Samsung Crystal Led - Bivolt',2449.9,'Caracteristicas -  Smart TV. Sistema operacional: Tizen. . Processador: Crystal 4K.. Assistente de Voz : Bixby, Alexa e Google Assistant. Aplicativos Pre-instalados: Sim. Tamanho da tela: 43 polegadas. Resolucao: 3,840 x 2,160. Frequencia: 60 Hz. audio: Potencia (RMS): 20 W. Conectividade: Entrada HDMI : Sim (3). Entrada USB: Sim (2). Entrada Ethernet: Sim. Conexoes sem fio: Wifi 5 e Bluetooth BT 5.2. Outras conexoes: HDMI A / Return Ch. Support, Entrada de RF (terrestre/entrada de cabo), eArc e Anynet+ (HDMI-CEC). Especificacoes Tecnicas Marca: Samsung. Modelo: Smart Tv 43�? UHD 4k. Dimensoes com Suporte (LxAxP): 96,5cm x 59,9cm x 20,5cm. Dimensoes sem Suporte: (LxAxP): 96,5cm x 55,9cm x 2,5cm. Tipo de Furacao: VESA. Peso aproximado do produto com suporte: 8,4Kg. Peso aproximado do produto sem suporte: 8,1Kg. Conteudo da Embalagem: 01 Smart TV; 01 Controle; Garantia Fornecedor: 1 Ano.');
-=======
-INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 12 , 'Smart Tv 43"" Uhd 4K Samsung Crystal Led - Bivolt' , 2449.9 , 'Caracteristicas -  Smart TV. Sistema operacional: Tizen. . Processador: Crystal 4K.. Assistente de Voz : Bixby ,  Alexa e Google Assistant. Aplicativos Pre-instalados: Sim. Tamanho da tela: 43 polegadas. Resolucao: 3 , 840 x 2 , 160. Frequencia: 60 Hz. audio: Potencia (RMS): 20 W. Conectividade: Entrada HDMI : Sim (3). Entrada USB: Sim (2). Entrada Ethernet: Sim. Conexoes sem fio: Wifi 5 e Bluetooth BT 5.2. Outras conexoes: HDMI A / Return Ch. Support ,  Entrada de RF (terrestre/entrada de cabo) ,  eArc e Anynet+ (HDMI-CEC). Especificacoes Tecnicas Marca: Samsung. Modelo: Smart Tv 43�? UHD 4k. Dimensoes com Suporte (LxAxP): 96 , 5cm x 59 , 9cm x 20 , 5cm. Dimensoes sem Suporte: (LxAxP): 96 , 5cm x 55 , 9cm x 2 , 5cm. Tipo de Furacao: VESA. Peso aproximado do produto com suporte: 8 , 4Kg. Peso aproximado do produto sem suporte: 8 , 1Kg. Conteudo da Embalagem: 01 Smart TV; 01 Controle; Garantia Fornecedor: 1 Ano.');
->>>>>>> 5f9d5a0b25f995cf1c0ddbd5845405c05bbe0dcf
+    VALUES (SQ_MC_PRODUTO.NEXTVAL ,12,'Smart Tv 43"" Uhd 4K Samsung Crystal Led - Bivolt',2449.9,'Caracteristicas -  Smart TV. Sistema operacional: Tizen. . Processador: Crystal 4K.. Assistente de Voz : Bixby, Alexa e Google Assistant. Aplicativos Pre-instalados: Sim. Tamanho da tela: 43 polegadas. Resolucao: 3,840 x 2,160. Frequencia: 60 Hz. audio: Potencia (RMS): 20 W. Conectividade: Entrada HDMI : Sim (3). Entrada USB: Sim (2). Entrada Ethernet: Sim. Conexoes sem fio: Wifi 5 e Bluetooth BT 5.2. Outras conexoes: HDMI A / Return Ch. Support, Entrada de RF (terrestre/entrada de cabo), eArc e Anynet+ (HDMI-CEC). Especificacoes Tecnicas Marca: Samsung. Modelo: Smart Tv 43�? UHD 4k. Dimensoes com Suporte (LxAxP): 96,5cm x 59,9cm x 20,5cm. Dimensoes sem Suporte: (LxAxP): 96,5cm x 55,9cm x 2,5cm. Tipo de Furacao: VESA. Peso aproximado do produto com suporte: 8,4Kg. Peso aproximado do produto sem suporte: 8,1Kg. Conteudo da Embalagem: 01 Smart TV; 01 Controle; Garantia Fornecedor: 1 Ano.');
 
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 13 , 'Fervedor Tramontina em Aluminio com Revestimento Interno e Externo' , 69.9 , 'Corpo de aluminio com espessura de 1 , 4 mm que proporciona cozimento rapido e uniforme. Revestimento interno e externo de antiaderente Starflon Max que nao gruda ,  e facil de limpar ,  mais duravel e nao e prejudicial a saude ,  pois e livre de PFOA. Cabo de baquelite antitermico que oferece seguranca. Altura: 10.30 cm. Largura: 13.30 cm. Diametro: 12 , 00. Peso: 240g. Capacidade: 1 litro.');
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 12 , 'Smart Tv 43"" Uhd 4K Samsung Crystal Led - Bivolt' , 2449.9 , 'Caracteristicas -  Smart TV. Sistema operacional: Tizen. . Processador: Crystal 4K.. Assistente de Voz : Bixby ,  Alexa e Google Assistant. Aplicativos Pre-instalados: Sim. Tamanho da tela: 43 polegadas. Resolucao: 3 , 840 x 2 , 160. Frequencia: 60 Hz. audio: Potencia (RMS): 20 W. Conectividade: Entrada HDMI : Sim (3). Entrada USB: Sim (2). Entrada Ethernet: Sim. Conexoes sem fio: Wifi 5 e Bluetooth BT 5.2. Outras conexoes: HDMI A / Return Ch. Support ,  Entrada de RF (terrestre/entrada de cabo) ,  eArc e Anynet+ (HDMI-CEC). Especificacoes Tecnicas Marca: Samsung. Modelo: Smart Tv 43�? UHD 4k. Dimensoes com Suporte (LxAxP): 96 , 5cm x 59 , 9cm x 20 , 5cm. Dimensoes sem Suporte: (LxAxP): 96 , 5cm x 55 , 9cm x 2 , 5cm. Tipo de Furacao: VESA. Peso aproximado do produto com suporte: 8 , 4Kg. Peso aproximado do produto sem suporte: 8 , 1Kg. Conteudo da Embalagem: 01 Smart TV; 01 Controle; Garantia Fornecedor:�1 Ano.');
 
 -- Inserindo produtos da categoria Utilidades Domesticas(13)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 13 , 'Panela de Pressao Tramontina Vancouver em Aluminio com Revestimento Interno' , 219 , 'Corpo de aluminio com espessura de 3 , 2 mm que proporciona cozimento rapido e uniforme. Com revestimento interno e externo de antiaderente Starflon Max que nao gruda ,  e facil de limpar ,  mais duravel e nao e prejudicial a saude. Tampa de aluminio.  Altura: 22.90 cm. Largura: 23.10 cm. Diametro: 20 , 00 cm. Peso: 1.725 kg. Capacidade: 4.5 litros.');
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 13 , 'Fervedor Tramontina em Aluminio com Revestimento Interno e Externo' , 69.9 , 'Corpo de aluminio com espessura de 1 , 4 mm que proporciona cozimento rapido e uniforme. Revestimento interno e externo de antiaderente Starflon Max que nao gruda ,  e facil de limpar ,  mais duravel e nao e prejudicial a saude ,  pois e livre de PFOA. Cabo de baquelite antitermico que oferece seguranca. Altura: 10.30 cm. Largura: 13.30 cm. Diametro: 12 , 00. Peso: 240g. Capacidade: 1 litro.');
 
+INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 13 , 'Panela de Pressao Tramontina Vancouver em Aluminio com Revestimento Interno' , 219 , 'Corpo de aluminio com espessura de 3 , 2 mm que proporciona cozimento rapido e uniforme. Com revestimento interno e externo de antiaderente Starflon Max que nao gruda ,  e facil de limpar ,  mais duravel e nao e prejudicial a saude. Tampa de aluminio.  Altura: 22.90 cm. Largura: 23.10 cm. Diametro: 20 , 00 cm. Peso: 1.725 kg. Capacidade: 4.5 litros.');
 
 -- Inserindo produto com status Inativo conforme regra n (13)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  ST_PRODUTO  , DS_COMPLETA_PROD)
-    VALUES (SQ_MC_PRODUTO.NEXTVAL , 13 , 'Amassador Batatas Legumes Espremedor Aço Inox Cabo Plástico Cozinha Utilidade Doméstica' , 21.95 , I , 'massador Batatas Legumes Espremedor Aço Inox Cabo Plástico Cozinha Utilidade Doméstica
-    Amassador de Batatas em Aço Inox e Plástico O Amassador de batatas é o utensílio que falta em sua cozinha para facilitar sua vida no dia a dia. Este eficiente item vai ser de grande uso ,  facilitand na hora de preparar as refeições ,  feito de de aço inox material forte e duradouro foi feito para quem busca mais praticidade.Produto moderno multifuncional este amassador é super fácil de usar ,  é simples e eficiente ,  basta posiciona-lo sobre o que deseja amassar e pressionar para ter os seus alimentos prontos!Ideal para Batata ,  Legumes ,  Mandioca ,  Feijão.Dimensões : 24.3 x 8 cmImagens meramente ilustrativas.');
+    VALUES (SQ_MC_PRODUTO.NEXTVAL , 13 , 'Amassador Batatas Legumes Espremedor Aco Inox Cabo Plastico' , 21.95 , 'I' , 'amassador Batatas Legumes Espremedor Aco Inox Cabo Plastico Cozinha Utilidade Domestica
+    Amassador de Batatas em Aco Inox e Plastico O Amassador de batatas e o utensilio que falta em sua cozinha para facilitar sua vida no dia a dia. Este eficiente item vai ser de grande uso ,  facilitando na hora de preparar as refeicoes ,  feito de de aco inox material forte e duradouro foi feito para quem busca mais praticidade.Produto moderno multifuncional este amassador  super facil de usar , simples e eficiente ,  basta posiciona-lo sobre o que deseja amassar e pressionar para ter os seus alimentos prontos!Ideal para Batata ,  Legumes ,  Mandioca ,  Feijao.Dimencoes : 24.3 x 8 cmImagens meramente ilustrativas.');
 
 COMMIT;
 --atualizado
-DELETE FROM MC_PRODUTO;
+--DELETE FROM MC_PRODUTO;
 
 -- Consultando todos os dados da tabela MC_PRODUTO
 SELECT * FROM MC_PRODUTO;
+
+-- Inserindo Produtos conforme regra I
+--ALTER SEQUENCE SQ_MC_PRODUTO RESTART START WITH 1;
