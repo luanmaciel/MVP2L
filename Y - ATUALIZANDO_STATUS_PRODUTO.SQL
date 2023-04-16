@@ -6,3 +6,6 @@ UPDATE MC_PRODUTO
 
 --Comentar o erro que aparece ao tentar deletar:
 --Relatório de erros -
+UPDATE MC_FUNCIONARIO 
+    SET  ST_FUNC = 'I' , DT_DESLIGAMENTO = TO_DATE (SYSDATE, 'DD/MM/YYYY')
+    WHERE CD_FUNCIONARIO = 14;
