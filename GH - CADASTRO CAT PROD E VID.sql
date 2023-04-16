@@ -51,7 +51,7 @@ VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Comercial com personalidade', TO_DATE('10
 
 
 
-
+COMMIT;
 --Deletar todos os dados de MC_CATEGORIA_PROD
 --DELETE FROM MC_CATEGORIA_PROD;
 
@@ -59,6 +59,6 @@ VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Comercial com personalidade', TO_DATE('10
 SELECT * FROM MC_CATEGORIA_PROD;
 
 --alter sequence SQ_MC_CATEGORIA restart start with 1;
-COMMIT;
+
 
 
