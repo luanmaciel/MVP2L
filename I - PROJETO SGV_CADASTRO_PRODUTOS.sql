@@ -1,4 +1,4 @@
-
+-- Inserindo Produtos conforme regra I
 
 -- Inserindo produtos da categoria Artesanato(1)
 INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO ,  DS_COMPLETA_PROD)
@@ -242,5 +242,5 @@ COMMIT;
 -- Consultando todos os dados da tabela MC_PRODUTO
 SELECT * FROM MC_PRODUTO;
 
--- Inserindo Produtos conforme regra I
+
 --ALTER SEQUENCE SQ_MC_PRODUTO RESTART START WITH 1;
