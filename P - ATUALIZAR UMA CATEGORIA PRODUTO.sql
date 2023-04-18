@@ -1,6 +1,6 @@
-
+--p) Atualize a descriÃ§Ã£o de uma categoria de produto a seu critÃ©rio.
 UPDATE MC_CATEGORIA_PROD
-SET DS_CATEGORIA = 'Produtos de áudio, gravação, transmissão e reprodução dos sons'
-WHERE CD_CATEGORIA = 2;
-
-SELECT * FROM MC_CATEGORIA_PROD;
+    SET DS_CATEGORIA = 'Produtos de ï¿½udio, gravaï¿½ï¿½o, transmissï¿½o e reproduï¿½ï¿½o dos sons'
+    WHERE CD_CATEGORIA = 2;
+COMMIT;
+--SELECT * FROM MC_CATEGORIA_PROD;

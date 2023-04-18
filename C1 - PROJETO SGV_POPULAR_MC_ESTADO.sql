@@ -1,59 +1,85 @@
--- POPULAR A TABELA MC_ESTADO COM TODOS OS ESTADOS DO BRASIL
+-- c) Parte 1: POPULAR A TABELA MC_ESTADO COM TODOS OS ESTADOS DO BRASIL
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('AC','Acre');
+    VALUES ('AC','Acre');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('AL','Alagoas');
+    VALUES ('AL','Alagoas');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('AP','Amapá');
+    VALUES ('AP','Amapï¿½');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('AM', 'Amazonas');
+    VALUES ('AM', 'Amazonas');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('BA', 'Bahia');
+    VALUES ('BA', 'Bahia');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('CE', 'Ceará');
+    VALUES ('CE', 'Cearï¿½');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('ES', 'Espírito Santo');
+    VALUES ('ES', 'Espï¿½rito Santo');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('GO', 'Goiás');
+    VALUES ('GO', 'Goiï¿½s');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('MA', 'Maranhão');
+    VALUES ('MA', 'Maranhï¿½o');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('MT', 'Mato Grosso');
+    VALUES ('MT', 'Mato Grosso');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('MS', 'Mato Grosso do Sul');
+    VALUES ('MS', 'Mato Grosso do Sul');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('MG', 'Minas Gerais');
+    VALUES ('MG', 'Minas Gerais');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('PA', 'Pará');
+    VALUES ('PA', 'Parï¿½');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('PB', 'Paraíba');
+    VALUES ('PB', 'Paraï¿½ba');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('PR', 'Paraná');
+    VALUES ('PR', 'Paranï¿½');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('PE', 'Pernambuco');
+    VALUES ('PE', 'Pernambuco');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('PI', 'Piauí');
+    VALUES ('PI', 'Piauï¿½');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('RJ', 'Rio de Janeiro');
+    VALUES ('RJ', 'Rio de Janeiro');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('RN', 'Rio Grande do Norte');
+    VALUES ('RN', 'Rio Grande do Norte');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('RS', 'Rio Grande do Sul');
+    VALUES ('RS', 'Rio Grande do Sul');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('RO', 'Rondônia');
+    VALUES ('RO', 'Rondï¿½nia');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('RR', 'Roraima');
+    VALUES ('RR', 'Roraima');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('SC', 'Santa Catarina');
+    VALUES ('SC', 'Santa Catarina');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('SP', 'São Paulo');
+    VALUES ('SP', 'Sï¿½o Paulo');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('SE', 'Sergipe');
+    VALUES ('SE', 'Sergipe');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('TO', 'Tocantins');
+    VALUES ('TO', 'Tocantins');
+
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-VALUES ('DF', 'Distrito Federal');
+    VALUES ('DF', 'Distrito Federal');
 
 COMMIT;
 --Deletando todos os dados da tabela MC_ESTADOS 
@@ -61,21 +87,3 @@ COMMIT;
 
 --Consultando todos os dados da tabela MC_ESTADO
 SELECT * FROM MC_ESTADO;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

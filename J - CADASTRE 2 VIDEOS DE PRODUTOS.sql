@@ -1,6 +1,5 @@
+--j) Cadastre 2 vídeos de produtos na tabela MC_SGV_PRODUTO_VIDEO e associe esses 2 vídeos em um único produto já cadastrado. Associe também as categorias adequadas ao vídeo.
 --SELECT * FROM MC_SGV_PRODUTO_VIDEO;
-
-
 --CREATE DIRECTORY video AS 'C:\app\lucas\product\21c\video';
 
 DECLARE
@@ -47,10 +46,6 @@ BEGIN
     COMMIT;
 END;
 
-
 --ALTER SEQUENCE SQ_MC_NR_SEQUENCIA RESTART START WITH 1;
 --DELETE FROM MC_SGV_PRODUTO_VIDEO;
-
-SELECT * FROM MC_SGV_PRODUTO_VIDEO;
-
-
+--SELECT * FROM MC_SGV_PRODUTO_VIDEO;
