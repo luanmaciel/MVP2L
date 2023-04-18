@@ -1,6 +1,6 @@
---s) Atualize a descriÃ§Ã£o de uma categoria de vÃ­deo a seu critÃ©rio.
+--s) Atualize a descrição de uma categoria de video a seu criterio.
 UPDATE MC_CATEGORIA_PROD
-    SET DS_CATEGORIA = 'Produtos de ï¿½udio, gravaï¿½ï¿½o, transmissï¿½o e reproduï¿½ï¿½o dos sons'
-    WHERE CD_CATEGORIA = 2;   
+    SET DS_CATEGORIA = 'Como será utilizado o produto no cotidiano (Hands-on)'
+    WHERE CD_CATEGORIA = 14;  
 COMMIT;
 --SELECT * FROM MC_CATEGORIA_PROD;
