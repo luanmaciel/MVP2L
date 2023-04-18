@@ -165,4 +165,3 @@ COMMIT;
 
 -- Consultando todos os dados da tabela MC_CLI_JURIDICA
 --SELECT * FROM MC_END_CLI;
-

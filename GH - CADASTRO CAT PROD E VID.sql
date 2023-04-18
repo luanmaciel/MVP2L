@@ -56,6 +56,3 @@ COMMIT;
 
 --Comando utilizado para alterar a sequência durante o processo devido a erros no servidor em algumas tentativas de popular as categorias.
 --alter sequence SQ_MC_CATEGORIA restart start with 1;
-
-
-
