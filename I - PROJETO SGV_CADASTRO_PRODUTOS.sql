@@ -54,9 +54,10 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
     - Distorcao harmônica total da pressao do som: = 7%
     - Resposta de frequencia: 67Hz-20kHz
     - Sensibilidade de entrada:
-    - 700  50mV (PC);
-    - 550  50mV (AUX);
-    - 550  50mFFs (Bluetooth)
+    - 700 - 50mV (PC);
+    - 550 - 50mV (AUX);
+    - 550 - 50mFFs (Bluetooth)
+
     - Relacao sinal / ruido dB (A): 85dB (A)
     - Nivel de ruido: =25dB (A)
     - Compatibilidade: Bluetooth ,  P2
@@ -90,7 +91,7 @@ INSERT INTO MC_PRODUTO (CD_PRODUTO ,  CD_CATEGORIA ,  DS_PRODUTO ,  VL_UNITARIO 
 -- Inserindo produtos da categoria Celulares e Smartfones(4)
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Apple iPhone 14 Plus 128GB Estelar 6,7? 12MP',6209.1,'Com o iPhone 14 Plus, voce pensa grande na supertelona de 6,7 polegadas* e tem bateria para o dia todo**. Usa o novo sistema de camera dupla para fazer fotos espetaculares em ambientes com pouca ou muita luz. E ganha tranquilidade com a Deteccao de Acidente***, um novo recurso de seguranca que liga para a emergencia se voce nao puder. Avisos legais *A tela tem bordas arredondadas. Quando medida como um retangulo, a tela tem 6,68 polegadas na diagonal. A area real de visualizacao e menor. **A duracao da bateria varia de acordo com o uso e a configuracao. Consulte apple.com/br/batteries para obter mais informacoes. ***O SOS de Emergencia usa uma conexao de rede celular ou chamadas Wi-Fi. ****e preciso ter um plano de dados. 5G so esta disponivel em alguns paises e por meio de determinadas operadoras. As velocidades variam de acordo com as condicoes e operadoras locais. Para obter detalhes sobre a compatibilidade com 5G, entre em contato com sua operadora e consulte apple.com/br/iphone/cellular. *****O iPhone 14 Plus e resistente a respingos, agua e poeira e foi testado em condicoes controladas em laboratorio, classificado como IP68 segundo a norma IEC 60529 (profundidade maxima de seis metros por ate 30 minutos). A resistencia a respingos, agua e poeira nao e uma condicao permanente e pode diminuir com o tempo. Nao tente recarregar um iPhone molhado. Veja instrucoes de limpeza e secagem no Manual do Usuario. Danos decorrentes de contato com liquidos nao estao incluidos na garantia. ******Alguns recursos podem nao estar disponiveis em todos os paises ou regioes.');
-
+    
 INSERT INTO MC_PRODUTO (CD_PRODUTO, CD_CATEGORIA, DS_PRODUTO, VL_UNITARIO, DS_COMPLETA_PROD)
     VALUES (SQ_MC_PRODUTO.NEXTVAL,4,'Smartphone Samsung Galaxy S23 256GB Verde 5G 8GB RAM 6,1" Cam Tripla',5849,'Smartphone Samsung Galaxy S23 256GB Violeta 5G 8GB RAM 6,1" Cam Tripla + Selfie 12MP
 Para voce que esta a procura de um novo smartphone e dar aquele upgrade no seu dia a dia no trabalho ou para navegar nas redes sociais, precisa conhecer o Samsung Galaxy S23 na cor violeta. e o smartphone top de linha pra quem quer um aparelho completo pra jogos, estudos e trabalho. Ele possui 256GB de armazenamento interno para guardar diversos aplicativos, fotos, videos e jogos, 8GB de memoria RAM e processador Qualcomm Snapdragon 8 Gen 2 que evita aquelas travadas durante o uso. A tela dele e Dynamic AMOLED 2X de 6,1"" com resolucao FHD+ (1080x2340), a camera traseira e tripla de 50MP +12MP + 10MP com Zoom Digital ate 30x e optico 3x , perfeita para tirar muitas fotos e a frontal de 12MP faz selfies que ficam otimas para postar nas redes sociais. E ainda, e Dual Chip com tecnologia 5G, oferece leitor de impressao digital, reconhecimento Facial e protecao IP68 que torna o aparelho resistente a agua, mesmo se ele for submerso por 30 minutos a 1,5 metro de profundidade. Atencao: Produto nao acompanha fone de ouvido.');
