@@ -7,7 +7,7 @@ INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('AL','Alagoas');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('AP','Amap�');
+    VALUES ('AP','Amapa');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('AM', 'Amazonas');
@@ -16,16 +16,16 @@ INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('BA', 'Bahia');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('CE', 'Cear�');
+    VALUES ('CE', 'Ceara');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('ES', 'Esp�rito Santo');
+    VALUES ('ES', 'Espirito Santo');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('GO', 'Goi�s');
+    VALUES ('GO', 'Goias');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('MA', 'Maranh�o');
+    VALUES ('MA', 'Maranhao');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('MT', 'Mato Grosso');
@@ -37,19 +37,19 @@ INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('MG', 'Minas Gerais');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('PA', 'Par�');
+    VALUES ('PA', 'Para');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('PB', 'Para�ba');
+    VALUES ('PB', 'Paraiba');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('PR', 'Paran�');
+    VALUES ('PR', 'Parana');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('PE', 'Pernambuco');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('PI', 'Piau�');
+    VALUES ('PI', 'Piaui');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('RJ', 'Rio de Janeiro');
@@ -61,7 +61,7 @@ INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('RS', 'Rio Grande do Sul');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('RO', 'Rond�nia');
+    VALUES ('RO', 'Rondonia');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('RR', 'Roraima');
@@ -70,7 +70,7 @@ INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('SC', 'Santa Catarina');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
-    VALUES ('SP', 'S�o Paulo');
+    VALUES ('SP', 'Sao Paulo');
 
 INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('SE', 'Sergipe');
@@ -82,8 +82,10 @@ INSERT INTO MC_ESTADO(SG_ESTADO, NM_ESTADO)
     VALUES ('DF', 'Distrito Federal');
 
 COMMIT;
+
+
 --Deletando todos os dados da tabela MC_ESTADOS 
 --DELETE FROM MC_ESTADOS;
 
 --Consultando todos os dados da tabela MC_ESTADO
-SELECT * FROM MC_ESTADO;
+--SELECT * FROM MC_ESTADO;

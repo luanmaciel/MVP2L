@@ -1,4 +1,5 @@
---e) Cadastre no mínimo 10 CLIENTES PESSOAS FÍSICAS e 5 CLIENTES PESSOA JÚRIDICA e associe no mínimo 1 endereço para cada cliente. Utilize nomes significativos e relevantes
+--e)Cadastre no mínimo 10 CLIENTES PESSOAS FÍSICAS e 5 CLIENTES PESSOA JÚRIDICA e associe no mínimo 1 endereço para cada cliente. 
+--Utilize nomes significativos e relevantes
 INSERT INTO MC_CLIENTE (NR_CLIENTE ,  NM_CLIENTE ,  QT_ESTRELAS , VL_MEDIO_COMPRA , ST_CLIENTE , DS_EMAIL , NR_TELEFONE , NM_LOGIN , DS_SENHA)
     VALUES (SQ_MC_CLIENTE.NEXTVAL ,  'Junior da Silva' , 1 , 150 , 'A' , 'j_dasilva@outlook.com' , 19988579990  , 'jsilva' , 'js90*');
 
