@@ -1,5 +1,5 @@
-/*d) Por fim, cadastre na tabela de ENDERECO FUNCIONARIO todos os funcion�rios com no m�nimo 1 endere�o para cada um. 
-Escolha v�rios estados do Brasil, ou seja, um funcion�rio pode residir em mais de uma localidade, dado que a empresa 
+/*d) Por fim, cadastre na tabela de ENDERECO FUNCIONARIO todos os funcionarios com no minimo 1 endereco para cada um. 
+Escolha varios estados do Brasil, ou seja, um funcionario pode residir em mais de uma localidade, dado que a empresa 
 Melhores Compras incentiva o trabalho em formato home office. 
 */
 

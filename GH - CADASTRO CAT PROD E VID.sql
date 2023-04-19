@@ -1,25 +1,27 @@
---g) Cadastre as seguintes categorias para os produtos: Artesanato; Áudio; Brinquedos; Celular e Smartphone; Colchões; Esporte e Lazer; Ferramentas; Games; Informática; Livros; Pet Shop; TV e Utilidades Domésticas.
+--g) Cadastre as seguintes categorias para os produtos: Artesanato; Áudio; Brinquedos; Celular e Smartphone; Colchões; 
+--Esporte e Lazer; Ferramentas; Games; Informática; Livros; Pet Shop; TV e Utilidades Domésticas.
+
 --Inserindo Categoria Artesanato
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Produtos de Artesanato s�o as pe�as feitas manualmente por um artes�o', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A'); 
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Produtos de Artesanato sao as pecas feitas manualmente por um artesao', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A'); 
 --Inserindo Categoria Audio
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Produtos de �udio estao relacionado com a t�cnica de grava��o, transmiss�o e reprodu��o dos sons', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Produtos de audio estao relacionado com a t�cnica de gravacao, transmissao e reprodu��o dos sons', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Brinquedos
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', '� considerado brinquedo todo e qualquer objeto utilizado para o divertimento de adultos e crian�as', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'e considerado brinquedo todo e qualquer objeto utilizado para o divertimento de adultos e crian�as', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Celulares e Smartphones
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Todos os  celulares ou smartphones', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Colch�es
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Colch�es de todos os modelos', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Colchoes de todos os modelos', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Esporte e Lazer
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Todos os esportes livres para proporcionar lazer e divers�o', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Todos os esportes livres para proporcionar lazer e diversao', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Ferramentas
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Todos os modelos de Ferramentas para auxiliar na realiza��o de tarefas ', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Todos os modelos de Ferramentas para auxiliar na realizacao de tarefas ', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Games
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Tudo de jogo ou videogame', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
@@ -34,15 +36,15 @@ INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inic
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Televisores de todos os modelos', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 --Inserindo Categoria Utilidade Domesticas
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Objetos uteis que s�o utilizados no lar', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'I');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Objetos uteis que sao utilizados no lar', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'I');
 
 --h) Cadastre as seguintes categorias para os vídeos: Instalação do produto; Uso no cotidiano; Comercial com personalidade; entre outros.
--- Adicionando Categorias Instala��o do produto
+-- Adicionando Categorias Instalacao do produto
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Como ser� feita a instala��o do produto', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Como sera feita a instalacao do produto', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 -- Adicionando Categorias Uso no cotidiano
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
-    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Como ser� utilizado o produto no cotidiano', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Como sera utilizado o produto no cotidiano', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 -- Adicionando Categorias Comercial com personalidade
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Comercial com personalidade', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');

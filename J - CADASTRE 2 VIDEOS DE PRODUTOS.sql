@@ -1,6 +1,7 @@
 --j) Cadastre 2 vídeos de produtos na tabela MC_SGV_PRODUTO_VIDEO e associe esses 2 vídeos em um único produto já cadastrado. Associe também as categorias adequadas ao vídeo.
---SELECT * FROM MC_SGV_PRODUTO_VIDEO;
---CREATE DIRECTORY video AS 'C:\app\lucas\product\21c\video';
+
+
+CREATE DIRECTORY video AS 'C:\app\lucas\product\21c\video';
 
 DECLARE
     l_blob BLOB;
@@ -9,7 +10,7 @@ DECLARE
 BEGIN
     SELECT BFILENAME('VIDEO', 'S23.mp4') INTO l_file FROM DUAL;
     INSERT INTO MC_SGV_PRODUTO_VIDEO (CD_PRODUTO, NR_SEQUENCIA, CD_CATEGORIA, VD_PRODUTO, TP_VIDEO_PROD, DS_PATH_VIDEO_PROD, ST_VIDEO_PROD)
-    VALUES (8, SQ_MC_NR_SEQUENCIA.NEXTVAL , 14, EMPTY_BLOB(), 'Apresentar', 'https://www.youtube.com/watch?v=vAHRNElRBVY', 'A')
+    VALUES (8, 1 , 14, EMPTY_BLOB(), 'Apresentar', 'https://www.youtube.com/watch?v=vAHRNElRBVY', 'A')
     RETURNING VD_PRODUTO INTO l_blob;
     
     l_file_len := DBMS_LOB.GETLENGTH(l_file);
@@ -31,7 +32,7 @@ DECLARE
 BEGIN
     SELECT BFILENAME('VIDEO', 'S23_Ultra.mp4') INTO l_file FROM DUAL;
     INSERT INTO MC_SGV_PRODUTO_VIDEO (CD_PRODUTO, NR_SEQUENCIA, CD_CATEGORIA, VD_PRODUTO, TP_VIDEO_PROD, DS_PATH_VIDEO_PROD, ST_VIDEO_PROD)
-    VALUES (8, SQ_MC_NR_SEQUENCIA.NEXTVAL , 14, EMPTY_BLOB(), 'Apresentar', 'https://www.youtube.com/watch?v=LSdkb6FyeOA', 'A')
+    VALUES (8, 2 , 14, EMPTY_BLOB(), 'Apresentar', 'https://www.youtube.com/watch?v=LSdkb6FyeOA', 'A')
     RETURNING VD_PRODUTO INTO l_blob;
     
     l_file_len := DBMS_LOB.GETLENGTH(l_file);
@@ -46,6 +47,8 @@ BEGIN
     COMMIT;
 END;
 
---ALTER SEQUENCE SQ_MC_NR_SEQUENCIA RESTART START WITH 1;
+--Deletando todos os dados da tabela MC_SGV_PRODUTO_VIDEO
 --DELETE FROM MC_SGV_PRODUTO_VIDEO;
+
+--Consultando todos os dados da tabela MC_PRODUTO_VIDEO
 --SELECT * FROM MC_SGV_PRODUTO_VIDEO;
