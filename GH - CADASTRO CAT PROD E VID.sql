@@ -1,4 +1,4 @@
---g) Cadastre as seguintes categorias para os produtos: Artesanato; Áudio; Brinquedos; Celular e Smartphone; Colchões; 
+--g) Cadastre as seguintes categorias para os produtos: Artesanato; �?udio; Brinquedos; Celular e Smartphone; Colchões; 
 --Esporte e Lazer; Ferramentas; Games; Informática; Livros; Pet Shop; TV e Utilidades Domésticas.
 
 --Inserindo Categoria Artesanato
@@ -38,7 +38,7 @@ INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inic
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'P', 'Objetos uteis que sao utilizados no lar', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'I');
 
---h) Cadastre as seguintes categorias para os vídeos: Instalação do produto; Uso no cotidiano; Comercial com personalidade; entre outros.
+--h) Cadastre as seguintes categorias para os vidos: Instalação do produto; Uso no cotidiano; Comercial com personalidade; entre outros.
 -- Adicionando Categorias Instalacao do produto
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Como sera feita a instalacao do produto', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
@@ -49,12 +49,19 @@ INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inic
 INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
     VALUES (SQ_MC_CATEGORIA.NEXTVAL, 'V', 'Comercial com personalidade', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
 
+    INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
+    VALUES (SQ_MC_CATEGORIA.CURRVAL+5, 'V', 'Comercial com personalidade', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+    INSERT INTO MC_CATEGORIA_PROD (cd_categoria, tp_categoria, ds_categoria, dt_inicio, st_categoria)
+    VALUES (SQ_MC_CATEGORIA.CURRVAL+1, 'V', 'Comercial com personalidade', TO_DATE('10/04/2023', 'DD/MM/YYYY'),'A');
+
 COMMIT;
 --Deletar todos os dados de MC_CATEGORIA_PROD
 --DELETE FROM MC_CATEGORIA_PROD;
 
 -- Consultando todos os dados da tabela MC_CATEGORIA_PROD
---SELECT * FROM MC_CATEGORIA_PROD;
+SELECT * FROM MC_CATEGORIA_PROD;
+
+Select SQ_MC_CATEGORIA.CURRVAL-1 from dual;
 
 --Comando utilizado para alterar a sequência durante o processo devido a erros no servidor em algumas tentativas de popular as categorias.
 --alter sequence SQ_MC_CATEGORIA restart start with 1;
